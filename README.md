@@ -6,7 +6,10 @@ The purpose of this assignment is to process the raw data from a pharmaceutical 
 Contents of this repository include:
 1 x .ipynb file (Final Report)
 2 x .csv files (source of research data)
+4 x jpg images (supposedly included as attachments to .ipynb file*)
 1 x README file
+
+* I couldn't view a version of the analysis that included the embedded images.  Not sure if I did this correctly.  Fingers crossed.
 
 IMPORTANT: Upon reaching the section of the analysis for "Quartiles, Outliers and Boxplots" I made the decision to exclude data from the following [4] research subjects: b447, t573, u153, x226.  Each of these subjects was treated with Ceftamin, however only one datapoint was recorded for each mouse.  The instructions indicate to "Calculate the final tumor volume of each mouse across four of the treatment regimens" to show efficacy of the treatment over time.  This is not possible with only one datapoint.  By including the "final" tumor weight for these 4 subjects (which was actually the initial weight prior to the start of treatment) we risk introducing data that could unfairly skew the results one way or another.  In my opinion, it's best to exclude incomplete data that doesn't contribute to our end goal.
 
